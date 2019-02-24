@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title> Consulta Backup Redes </title>
+</head>
+<body>
+  <h3 align='center' >Equipamentos Backapeados Equipe de Redes</h3><br>
+  <table align='center' border=1>
+   <tr>
+    <th>PAloalto</th>
+        <th>PFSense </th>
+    <th>FIrewall</th>
+   </tr>
+
+  <tr>
+  <form name="Paloalto" action="redes/paloalto/paloalto.html" method="POST">
+  <!--  <label>Equipamentos Redes - Paloalto :</label> -->
+        <td>
+    <input type="submit" name="consulta-completa" value="Visualizar">
+        </td>
+  </form>
+ <form name="PFsense" action="redes/pfsense/pfsense.html" method="POST">
+   <!-- <label>Equipamentos Redes - PFsense  :</label> -->
+        <td>
+    <input type="submit" name="consulta-completa" value="Visualizar">
+        </td>
+  </form>
+ <form name="PFsense" action="redes/firewall/firewall.html" method="POST">
+    <!-- <label>Equipamentos Redes - Firewall  :</label> -->
+        <td>
+    <input type="submit" name="consulta-completa" value="Visualizar">
+        </td>
+  </form>
+  </form>
+  </tr>
+  </table>
+
+  </body>
+</html>
